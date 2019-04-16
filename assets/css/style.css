@@ -1,0 +1,132 @@
+/*fontebi*/
+@font-face {
+	font-family: caps;
+	src: url(../fonts/caps.ttf);
+}
+
+@font-face {
+	font-family: normal;
+	src: url(../fonts/normal-bold.ttf);
+}
+
+
+
+*{
+	margin: 0 ;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: normal;
+}
+
+/*0-ashorebs zemot qvemodan, margin gverdebidan da centravs*/
+body {
+	max-width: 1084px;
+	margin:0 auto;
+}
+
+/*yvelaferi ras display flex-shia moeqceva horizonntalurad*/
+header, 
+	ul {
+		display: flex;
+
+	}
+
+	header{
+		
+		height: 60px;
+		justify-content: space-between;
+		align-items: center;
+			
+	}
+
+
+
+	/*davwerot burgeristvis display-none, rom damalos */
+	.burger {
+		display: none;
+	}
+
+	.header_navigation{
+		width: 214px;
+		justify-content: space-between;
+	}
+
+	a {
+		color: #181818;
+		transition: 300ms color ease;
+
+	}
+
+	a:hover{
+		color: #BADC58;
+		transition: 300ms color ease;
+	}
+
+	a, h1, h2, h3, address {
+		font-family: caps; 
+	}
+
+	.hero{
+		width: 100%;
+		height: calc(100vh-60px);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
+		text-align: center;
+		
+	}
+
+	
+	.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 240px 0px 91px 0px;
+    width: 639px;
+    height: 216px;
+
+    
+}
+	
+	.hero-content h1{
+		font-size: 50px;
+		font-family: normal;
+		
+		
+		
+
+	}
+
+	.hero-content p{
+		width: 332px;
+		height: 41px;
+		margin: 10px 517px 52px 517px;
+		font-size: 14px;
+		
+
+	}
+
+	.hero-content a{
+		
+		background-color: #BADC58;
+		border: 1px solid #BADC58;
+		color: #181818;
+		padding: 13px 52px 14px 52px;
+		border-radius: 10px;
+		font-size:14px;
+		margin: 52px 601px 91px 601px;
+		
+		
+	}
+
+	.hero-content a:hover{
+		background-color: #BADC58;
+		color: #ffffff;
+	}
+
+
