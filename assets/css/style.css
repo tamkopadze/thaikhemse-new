@@ -70,7 +70,7 @@ header,
 
 	.hero{
 		width: 100%;
-		height: calc(100vh-60px);
+		height: calc(100vh - 60px);
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -162,5 +162,115 @@ header,
 		opacity: 0.6;
 		z-index: -1;
 	}
+
+
+.dauyevi {
+	width: 86px;
+	
+	color: white;
+	font-size:10px;
+}
+
+
+.menu {
+	width: 1084px;
+	height: 1135px;
+
+
+}
+
+.menu h2{
+	width: 265px;
+	height: 58px;
+	margin: 53px 425px 40px 394px;
+	font-size: 30px;
+	font-weight: normal;
+	/*display: flex;
+	align-items: center;
+	justify-content: center;*/
+}
+
+.menu ul  {
+	width: 1084px;
+	height: 1135;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	flex-wrap:wrap;
+	
+}
+
+/*.menu li{
+	flex-direction: row;
+	
+}*/
+	
+
+.menu img {
+	width:232px;
+	height: 225px;
+	margin:10px 38px 46px 38px;
+
+}
+.menu h3{
+	width: 132px;
+	height: 39px;
+	font-size: 16px;
+	margin:0px 88px 5px 88px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.menu p {
+	width: 148px;
+	height: 32px;
+	font-size: 10px;
+	margin:0px 80px 20px 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.button {
+	width: 164px;
+	height: 46px;
+	margin:0px 72px 29px 72px;
+	border: 1px solid #BADC58;
+	color: #BADC58;
+	border-radius: 10px;
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+
+}
+
+.menu a{
+	width: 68px;
+	height: 19px;
+	font-size: 14px;
+	padding: 13px 48px 14px 48px;
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+}	
+
+.menu a:hover{
+	border: 1px solid #BADC58;
+	background-color: #BADC58;
+	color: #181818;
+
+}
+
+.button-damatebulia {
+	width: 164px;
+	height: 46px;
+	margin:0px 72px 29px 72px;
+	border: 1px solid #ECF0F1;
+	color: #BDC3C7;
+
+
+}
 
 
