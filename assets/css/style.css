@@ -185,9 +185,7 @@ header,
 	margin: 53px 425px 40px 394px;
 	font-size: 30px;
 	font-weight: normal;
-	/*display: flex;
-	align-items: center;
-	justify-content: center;*/
+	
 }
 
 .menu ul  {
@@ -200,10 +198,8 @@ header,
 	
 }
 
-/*.menu li{
-	flex-direction: row;
-	
-}*/
+
+
 	
 
 .menu img {
@@ -240,9 +236,7 @@ header,
 	border: 1px solid #BADC58;
 	color: #BADC58;
 	border-radius: 10px;
-	/*display: flex;
-	justify-content: center;
-	align-items: center;*/
+	
 
 }
 
@@ -251,9 +245,7 @@ header,
 	height: 19px;
 	font-size: 14px;
 	padding: 13px 48px 14px 48px;
-	/*display: flex;
-	justify-content: center;
-	align-items: center;*/
+	
 }	
 
 .menu a:hover{
@@ -269,8 +261,15 @@ header,
 	margin:0px 72px 29px 72px;
 	border: 1px solid #ECF0F1;
 	color: #BDC3C7;
+}
 
-
+/*rogor gavaketo amis uketesi varianti?*/
+.button-damatebulia:hover { 
+	background-color: #fff !important;
+    width: 164px !important;
+    margin: 0px 72px 29px 72px !important;
+    border: 1px solid #ECF0F1 !important;
+    color: #BDC3C7 !important;
 }
 
 
